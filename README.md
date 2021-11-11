@@ -1,0 +1,2 @@
+# Welcome
+Simple Welcome Page
