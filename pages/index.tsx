@@ -2,7 +2,7 @@ import type { NextPage } from 'next'
 import Head from 'next/head'
 import Image from 'next/image'
 import Markdown from '../components/Markdown'
-import { ContentBlock } from '../components/UI'
+import { ContentBlock, Page } from '../components/UI'
 import { markdownToHtml, getMarkdown } from '../lib'
 
 type Props = {
@@ -13,9 +13,11 @@ const contentPath = 'readme.md'
 
 const Home: NextPage<Props> = ({ content }) => {
   return (
-    <ContentBlock>
-      <Markdown content={content} />
-    </ContentBlock>
+    <Page>
+      <ContentBlock>
+        <Markdown content={content} />
+      </ContentBlock>
+    </Page>
   )
 }
 
