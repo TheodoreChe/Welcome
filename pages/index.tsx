@@ -9,7 +9,7 @@ type Props = {
   content: string
 }
 
-const contentPath = 'readme.md'
+const contentPath = 'README.md'
 
 const Home: NextPage<Props> = ({ content }) => {
   return (
