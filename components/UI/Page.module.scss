@@ -1,4 +1,12 @@
 .page {
   max-width: 56rem;
-  margin: 2rem auto;
+  padding: 2rem 0;
+  margin: 0 auto;
+}
+
+.center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
 }

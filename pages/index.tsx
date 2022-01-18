@@ -13,7 +13,7 @@ const contentPath = 'README.md'
 
 const Home: NextPage<Props> = ({ content }) => {
   return (
-    <Page>
+    <Page center>
       <ContentBlock>
         <Markdown content={content} />
       </ContentBlock>
