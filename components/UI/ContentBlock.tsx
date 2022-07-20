@@ -1,8 +1,8 @@
-import { ReactElement } from 'react'
+import { ReactNode } from 'react'
 import css from './ContentBlock.module.scss'
 
 type Props = {
-  children: ReactElement
+  children: ReactNode
 }
 
 export function ContentBlock({ children }: Props) {
